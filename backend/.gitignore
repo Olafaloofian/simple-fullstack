@@ -1,0 +1,4 @@
+# This file is for telling git which components to ignore, important for decluttering and security
+
+.env
+node_modules
