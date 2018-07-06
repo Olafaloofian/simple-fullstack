@@ -9,6 +9,9 @@ import DoSomething from "./components/stateless_component"
 
 class App extends Component {
   //You can build out a constructor function here if you want, but it might be best to keep all that in the separate components.
+  functioncall() {
+    return ("Function called!")
+  }
   render() {
     //Your last chance to console log!
     return (

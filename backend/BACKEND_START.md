@@ -4,7 +4,7 @@ To set up a server using the terminal, run [npm init -y]. This will create a pac
 
 Net, run [yarn add express body-parser massive dotenv]. This terminal command will add the packages Express, Body-Parser, Massive, and DotEnv to the project. All are necessary for backend production. A file named yarn.lock will also be made at this point.
 
-If you plan on using [nodemon] for development (you probably should), make sure to adjust the "main" property in package.json. It will probably need to be set to "server/index.js".
+If you plan on using [nodemon] for development (yes, you should), make sure to adjust the "main" property in package.json. It will probably need to be set to "server/index.js".
 
 Set up a proxy in package.json so your ports dont interfere with each other.
 
