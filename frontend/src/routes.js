@@ -8,7 +8,15 @@ export default (
         <Switch>
             {/* Switches between components so only one can be displayed at any time */}
             <Route exact path="/"  component={ Class } />
-            <Route path="/dosomething:paramteter" component={ DoSomething } />
             {/* Access this parameter from the component's file with this.props.match.params.parameter */}
+            <Route path="/dosomething:paramteter" component={ DoSomething } />
+            {/* You can return a function right in the <Route> itself */}
+            <Route path='/page' render={() => {
+                return (
+                    <div>
+                        <h1>Page</h1>
+                    </div>
+                )
+            }} />
         </Switch>
 )

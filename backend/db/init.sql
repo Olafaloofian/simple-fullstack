@@ -15,8 +15,10 @@ insert into tablename (column2, column3, column4, column5) values ('value1', 1.1
 -- count(column)
 -- avg(column)
 -- sum(column)
--- IN (SELECT value,value)
 -- WHERE column LIKE val%(wildcard)_(single wildcard)
 -- AND/OR/IS/IS NOT
 -- ORDER BY column ASC/DESC
 -- LIMIT (number of returned items)
+-- JOIN table t ON t.id = t.id
+-- WHERE IN (SELECT FROM WHERE)
+-- GROUP BY column

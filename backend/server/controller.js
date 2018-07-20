@@ -45,5 +45,9 @@ delete: ( req, res, next ) => {
         res.status(500).send({errorMessage: "Oops! Something went wrong. Our engineers have been informed!"});
         console.log(err)
     } );
+},
+// A method that gets the user's session-specific object value at 'objectKey'
+session(req, res) { 
+    res.json(req.session.user.objectKey)
 }
 };
