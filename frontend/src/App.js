@@ -9,7 +9,7 @@ import DoSomething from "./components/stateless_component"
 import routes from "./routes"
 
 class App extends Component {
-  //You can build out a constructor function here if you want, but it might be best to keep all that in the separate components.
+  //You can build out a super constructor function here if you want, but it might be best to keep all that in the separate components.
   functioncall() {
     return ("Function called!")
   }

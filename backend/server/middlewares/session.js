@@ -5,5 +5,5 @@ module.exports = function (req, res, next) {
             objectKey: value
         }
     }
-    next()
+    next() // Next is used when middleware is applied
 }
